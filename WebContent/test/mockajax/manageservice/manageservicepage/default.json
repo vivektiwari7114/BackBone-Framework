@@ -1,0 +1,194 @@
+{
+  "customerId": "1100001248",
+  "accounts": [
+    {
+      "accountId": "001000002274",
+      "accountAlias": "",
+      "companyCode": "0300",
+      "circleId": "TC",
+      "accountType": "Prepaid",
+      "servicePackage": [
+        {
+          "packageCode": "OC300005",
+          "packageName": "LTE Residential Premium Offer with ECS",
+          "services": [
+            {
+              "parentServiceId": "",
+              "ServiceId": "500442402",
+              "TechnicalId": "",
+              "productCode": "P30001",
+              "productName": "Enhanced Communication Active Service",
+              "serviceAlias": "",
+              "typeOfService": "Z06",
+              "activationDate": "",
+              "serviceStatus": "Active",
+              "serviceContractReferenceNo": "00050044250000000020",
+              "action": [],
+              "Characteristics": {
+                "name": "",
+                "value": ""
+              },
+              "associatedUsers": [
+                {
+                  "customerId": "1100001248",
+                  "adminLevel": "P"
+                }
+              ]
+            }
+          ]
+        },
+		 {
+          "packageCode": "OC300005",
+          "packageName": "LTE Residential Premium Offer with ECS",
+          "services": [
+            {
+              "parentServiceId": "",
+              "ServiceId": "500442403",
+              "TechnicalId": "",
+              "productCode": "P30001",
+              "productName": "Enhanced Suspended Communication Service",
+              "serviceAlias": "",
+              "typeOfService": "Z06",
+              "suspenstionDate": "12-12-12",
+              "serviceStatus": "Suspended",
+              "serviceContractReferenceNo": "00050044250000000020",
+              "action": [],
+              "Characteristics": {
+                "name": "",
+                "value": ""
+              },
+              "associatedUsers": [
+                {
+                  "customerId": "1100001248",
+                  "adminLevel": "P"
+                }
+              ]
+            }
+          ]
+        },
+		 {
+          "packageCode": "OC300005",
+          "packageName": "LTE Residential Premium Offer with ECS",
+          "services": [
+            {
+              "parentServiceId": "",
+              "ServiceId": "500442404",
+              "TechnicalId": "",
+              "productCode": "P30001",
+              "productName": "Enhanced Disconnected Communication Service",
+              "serviceAlias": "",
+              "typeOfService": "Z06",
+              "activationDate": "",
+              "serviceStatus": "Disconnected",
+              "serviceContractReferenceNo": "00050044250000000020",
+              "action": [],
+              "Characteristics": {
+                "name": "",
+                "value": ""
+              },
+              "associatedUsers": [
+                {
+                  "customerId": "1100001248",
+                  "adminLevel": "P"
+                }
+              ]
+            }
+          ]
+        },
+		 {
+          "packageCode": "OC300005",
+          "packageName": "LTE Residential Premium Offer with ECS",
+          "services": [
+            {
+              "parentServiceId": "",
+              "ServiceId": "500442405",
+              "TechnicalId": "",
+              "productCode": "P30001",
+              "productName": "Enhanced Suspended Suspended Communication Service",
+              "serviceAlias": "",
+              "typeOfService": "Z06",
+              "suspenstionDate": "24-12-13",
+              "serviceStatus": "Suspended",
+              "serviceContractReferenceNo": "00050044250000000020",
+              "action": [],
+              "Characteristics": {
+                "name": "",
+                "value": ""
+              },
+              "associatedUsers": [
+                {
+                  "customerId": "1100001248",
+                  "adminLevel": "P"
+                }
+              ]
+            }
+          ]
+        },
+		 {
+          "packageCode": "OC300005",
+          "packageName": "LTE Residential Premium Offer with ECS",
+          "services": [
+            {
+              "parentServiceId": "",
+              "ServiceId": "500442406",
+              "TechnicalId": "",
+              "productCode": "P30001",
+              "productName": "Enhanced Communication Service",
+              "serviceAlias": "",
+              "typeOfService": "Z06",
+              "activationDate": "",
+              "serviceStatus": "Active",
+              "serviceContractReferenceNo": "00050044250000000020",
+              "action": [],
+              "Characteristics": {
+                "name": "",
+                "value": ""
+              },
+              "associatedUsers": [
+                {
+                  "customerId": "1100001248",
+                  "adminLevel": "P"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "packageCode": "OC300005",
+          "packageName": "LTE Residential Premium Offer with ECS",
+          "services": [
+            {
+              "parentServiceId": "",
+              "ServiceId": "500442407",
+              "TechnicalId": "",
+              "productCode": "P10002",
+              "productName": "LTE Home High End",
+              "serviceAlias": "",
+              "typeOfService": "Z01",
+              "activationDate": "",
+              "serviceStatus": "Active",
+              "serviceContractReferenceNo": "00050044250000000030",
+              "action": [
+                "SSUSPEND",
+                "SRVCEASE",
+                "ADDEVICE",
+                "ASSOUSER",
+                "DISOUSER"
+              ],
+              "Characteristics": {
+                "name": "",
+                "value": ""
+              },
+              "associatedUsers": [
+                {
+                  "customerId": "",
+                  "adminLevel": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "Username": "reliance1",
+        "Password": "rel@123"
+    },
+    {
+        "Username": "reliance2",
+        "Password": "rel@789"
+    },
+    {
+        "Username": "reliance3",
+        "Password": "rel@456"
+    },
+    {
+        "Username": "reliance4",
+        "Password": "rel@311"
+    }, 
+    {
+        "Username": "reliance5",
+        "Password": "rel@890"
+    }
+]

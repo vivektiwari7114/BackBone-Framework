@@ -1,0 +1,772 @@
+body {background-color: #efefef;}
+.demoproject-homescreenlogo{display: none;}
+/*****************************************************common*****************************************************/
+.demoproject-addtionaldetails-radio ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+.demoproject-textarea
+{
+width:100%;
+}
+.demoproject-addtionaldetails-radio ul li {float:left; width:33%}
+.demoproject-radio-alignment{float:left; width:33%;}
+.demoproject-textbox select{-webkit-appearance: menulist!important}
+.demoproject-dropdown{width: 100%!important;  font-size: 1.4em; -webkit-appearance: menulist!important} 
+#demoproject-menubar,.demoproject-mainLogo1{display: none;}
+#demoproject-menubar-profile,.demoproject-mainLogo1-profile{display: none;}
+#demoproject-menubar-password,.demoproject-mainLogo1-password{display: none;}
+#demoproject-menubar-recharge,.demoproject-mainLogo1-recharge{display: none;}
+#demoproject-menubar-summary,.demoproject-mainLogo1-summary{display: none;}
+
+.demoproject-menubarcontainer{position: absolute!important; background-color:#efefef!important; width: 100%!important; z-index: 1;}
+#demoproject-ap-menubar{margin-right:-20px}
+/*.demoproject-acc-search, #demoproject-dropdownlogo{display:none;}*/
+.demoproject-acc-search{display:none;}
+.ffss-searchBtn{width:16px; height:16px; margin-top: 0.5em; background:url("../images/search-16.png") no-repeat center;  }
+.demoproject-textbox-search{ background: url("../images/search-16.png") no-repeat right;  background-color:#fff!important; padding-left: 84px;}
+.demoproject-NewLogo{ background: url("../images/top_line.9.png") no-repeat left; height:5px;}
+.demoproject-NewLogoTest{ background: url("../images/demoprojectLogo.png") no-repeat right; height: 70px;width: 263px;float: right;background-size: 113px 70px;}
+
+.demoproject-dropdownlogo{background: url("../images/demoprojectLogo.png") no-repeat right; height: 70px;width: 263px;float: right;background-size: 113px 70px;}
+
+.demoproject-errorMsg{font-size:1.6em; margin:0.5em 0em 0.5em 0em; font-weight:bold; color:red;}
+.demoproject-errorMsgtextbox{border:2px solid red!important;}
+a{text-decoration: none; color:#333;}
+.demoproject-radio-lable{margin-top: -86px;margin-left: 78px;}
+.demoproject-radio-align{margin-top: -71px;margin-left: 78px;}
+.demoproject-radio2-align {margin-top: -3em;margin-left: 11.6em;}
+.demoproject-radioMobile-align {margin-top: -3em;margin-left: 3em;}
+.demoproject-radioBoth-align{margin-top: -3em;margin-left: 3em;}
+div.demoproject-ap-homemenua ul li{background-repeat: no-repeat;  background-origin:border-box;   background-position:left;   padding:35px 35px 25px 40px;    border-bottom: 1px solid #dddddd;}
+.logo{position: fixed; width:100%}
+.demoproject-menubar-mynotification{background-image: url('../images/draw_notification.png');}
+.demoproject-menubar-myorder{background-image: url('../images/draw_order.png');}
+
+.demoproject-menubar-jioproducts{background-image: url('../images/draw_products.png');}
+.demoproject-menubar-myorders{background-image: url('../images/Icon_24x32_MyOrd.png');}
+.demoproject-menubar-bestplans{background-image: url('../images/draw_best.png');}
+.demoproject-menubar-support{background-image: url('../images/draw_support.png');}
+.demoproject-menubar-logout{background-image: url('../images/draw_logout.png');}
+.demoproject-menubar-recharge{background-image: url('../images/draw_recharge.png');}
+.demoproject-menubar-mycart{background-image: url('../images/draw_cart.png');}
+.demoproject-menubar-manageservices{background-image: url('../images/draw_manser.png');}
+.demoproject-menubar-relocation{background-image: url('../images/draw_relocation.png');}
+.demoproject-menubar-servicerequest{background-image: url('../images/draw_serreq.png');}
+div.demoproject-ap-homemenua ul li a {   text-decoration:none; color:#000}
+div.demoproject-ap-homemenua ul{list-style-type:none; margin:0em; padding:0em; overflow:auto;}
+.demoproject-sp3-imagecaptcha{color:black;text-align:center;font-size:2em;padding-left:.1em;margin-top:.3em}
+/*.demoproject-ap-homemenu ul li:last-child {border-bottom: 1px solid #dddddd;}*/
+.demoproject-ap-logo{margin:0px auto;}
+.demoproject-ap-search{float: left; height:auto; margin-top:2em;}
+
+.demoproject-ap-account{text-align:center;  padding-top:2.5em; margin-bottom:0.5em}
+.demoproject-ap-accountname{text-align:center;}
+.demoproject-ap-mainmenu{margin:1em 0em 0.5em 0em;}
+.demoproject-fontbold{font-weight:bold;}
+.demoproject-fontitalic{font-style:italic;}
+.demoproject-fontcolor{color: #7F7F7F!important;}
+.demoproject-fontunderline{text-decoration: underline;}
+.demoproject-fontaligncenter{text-align:center;}
+/*#demoproject-ap-menubar{display: none;}
+.searchandmenu{display: none;}
+#bottomlogo{display: none;}*/
+
+/*****************************************************common*****************************************************/
+/*****************************************************Fonts******************************************************/
+@font-face{font-family: roboto; src: url(../font/Roboto-Thin.ttf);}
+@font-face{font-family: roboto; src: url(../font/Roboto-Bold.ttf); font-weight:bold; font-style:normal;}
+
+/*****************************************************LOGO******************************************************/
+
+.demoproject-mainLogo-bottom{text-align: right; margin: 0px auto 0%; background-color: #C9C9C9;display: none;}
+
+.demoproject-Login{float: left; margin: 0px auto 0%; margin:2em 2em 0em 0em; }
+.clearfix{clear:both !important; float:none !important;}
+
+a:hover{text-decoration: none; color:#000}
+/*****************************************************Headlines******************************************************/
+.demoproject-headline1{color: #333; font-size:4.68em; font-family: roboto; line-height: 1em;}
+.demoproject-headline2{color: #333; font-size:3.35em; font-family:roboto;}
+.demoproject-headline3{color: #333; font-size:2.67em; text-align: left; line-height:1.2em}
+.demoproject-headline4{color: #333; font-size:1.84em; font-weight:bold; line-height: 1em;}
+.demoproject-headline5{color: #fff; font-size:1.84em; background-color:#333; padding: 0.5em 0.5em 0.5em 2em;}
+.demoproject-headline6{color: #333333; font-size:1.80em;}
+.demoproject-headline7{color: #000; font-size:1.59em; text-align:center; line-height:1.2em}
+.demoproject-headline3a{color: #333; font-size:2.67em; text-align: left; line-height:1.2em}
+.demoproject-subheadline{color: #666; font-size:1.59em;}
+.demoproject-subheadline1{color: #666; font-size:1.59em;line-height:1.5em}
+.demoproject-subheadline-bold{color: #333;font-weight:bold ;font-size:1.59em; }
+.demoproject-headlinestyleinactive{color: #999; font-size:1.84em;}
+.demoproject-bodytext{font-size:1.59em; color: #333; line-height:1.2em}
+/*.demoproject-dropdown{color: #333; font-size:2.8em}*/
+.demoproject-margin{margin-bottom:0.5em;}
+.demoproject-margin1{margin-bottom:1em;}
+.demoproject-margin2{margin: 1em 0em 1em  0em}
+.demoproject-margin3{margin: 8em 0em 0em  0em}
+.demoproject-margin4{margin-top:1em;}
+.demoproject-margin5{margin-top:0.5em;}
+.demoproject-margin7{margin-top:10em;}
+.demoproject-margin8{margin-top:5em;}
+.demoproject-margin9{margin-top:14em;}
+.demoproject-margin10{margin-top:2em;}
+.demoproject-textalignc{text-align:center;}
+.demoproject-titlecase{margin:1.2em 0em 1em 0em;}
+.demoproject-titlecase1{margin: 0.2em 0em 1em 0em;}
+.demoproject-titlecase2{margin: 0.8em 0em 0.5em 0em;}
+.demoproject-titlecase3{margin: 1.8em 0em 0.5em 0em;}
+.demoproject-titlecase4{margin: 1em 0em 1em 0em;}
+.demoproject-logincase{margin: 0em 0em 1em 0em;}
+/************************** Loader Styles *************************************/
+.demoproject-overlay{height:100%; width:100%; margin:0 auto; background:#fff; position:fixed; z-index:9999; opacity : 0.8; top: 0; left: 0; text-align: center;display:none}
+.demoproject-overlay .demoproject-overlay-spinner {position: relative; width: 2em; height: 2em; display: inline-block; top:40%; }
+.demoproject-overlay .demoproject-overlay-spinner div { width: 8%; height: 26%; background: #000; position: absolute; left: 44.5%; top: 37%; opacity: 0; -webkit-animation: fade 1s linear infinite; -webkit-border-radius: 50px; -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.2); -moz-animation: fade 1s linear infinite; border-radius: 50px; box-shadow: 0 0 3px rgba(0,0,0,0.2); -o-animation: fade 1s linear infinite; animation: fade 1s linear infinite;}
+.demoproject-overlay-spinner div.bar1 {-webkit-transform:rotate(0deg) translate(0, -142%); -ms-transform:rotate(0deg) translate(0, -142%); -o-transform: rotate(0deg) translate(0, -142%); transform:rotate(0deg) translate(0, -142%); -webkit-animation-delay: 0s; -moz-transform:rotate(0deg) translate(0, -142%); -moz-animation-delay: 0s; animation-delay: 0s;}
+.demoproject-overlay-spinner div.bar2 {-webkit-transform:rotate(30deg) translate(0, -142%); -ms-transform:rotate(30deg) translate(0, -142%); -o-transform: rotate(30deg) translate(0, -142%); transform:rotate(30deg) translate(0, -142%); -webkit-animation-delay: -0.9167s; -moz-transform:rotate(30deg) translate(0, -142%); -moz-animation-delay: -0.9167s; animation-delay: -0.9167s;}
+.demoproject-overlay-spinner div.bar3 {-webkit-transform:rotate(60deg) translate(0, -142%); -ms-transform:rotate(60deg) translate(0, -142%); -o-transform: rotate(60deg) translate(0, -142%); transform:rotate(60deg) translate(0, -142%); -webkit-animation-delay: -0.833s; -moz-transform:rotate(60deg) translate(0, -142%); -moz-animation-delay: -0.833s; animation-delay: -0.833s;}
+.demoproject-overlay-spinner div.bar4 {-webkit-transform:rotate(90deg) translate(0, -142%); -ms-transform:rotate(90deg) translate(0, -142%); -o-transform: rotate(90deg) translate(0, -142%); transform:rotate(90deg) translate(0, -142%); -webkit-animation-delay: -0.75s; -moz-transform:rotate(90deg) translate(0, -142%); -moz-animation-delay: -0.75s; animation-delay: -0.75s;}
+.demoproject-overlay-spinner div.bar5 {-webkit-transform:rotate(120deg) translate(0, -142%); -ms-transform:rotate(120deg) translate(0, -142%); -o-transform: rotate(120deg) translate(0, -142%); transform:rotate(120deg) translate(0, -142%); -webkit-animation-delay: -0.667s; -moz-transform:rotate(120deg) translate(0, -142%); -moz-animation-delay: -0.667s; animation-delay: -0.667s;}
+.demoproject-overlay-spinner div.bar6 {-webkit-transform:rotate(150deg) translate(0, -142%); -ms-transform:rotate(150deg) translate(0, -142%); -o-transform: rotate(150deg) translate(0, -142%); transform:rotate(150deg) translate(0, -142%); -webkit-animation-delay: -0.5833s;-moz-transform:rotate(150deg) translate(0, -142%); -moz-animation-delay: -0.5833s; animation-delay: 0.5833s;}
+.demoproject-overlay-spinner div.bar7 {-webkit-transform:rotate(180deg) translate(0, -142%); -ms-transform:rotate(180deg) translate(0, -142%); -o-transform: rotate(180deg) translate(0, -142%); transform:rotate(180deg) translate(0, -142%); -webkit-animation-delay: -0.5s; -moz-transform:rotate(180deg) translate(0, -142%); -moz-animation-delay: -0.5s; animation-delay: -0.5s;}
+.demoproject-overlay-spinner div.bar8 {-webkit-transform:rotate(210deg) translate(0, -142%); -ms-transform:rotate(210deg) translate(0, -142%); -o-transform: rotate(210deg) translate(0, -142%); transform:rotate(210deg) translate(0, -142%); -webkit-animation-delay: -0.41667s; -moz-transform:rotate(210deg) translate(0, -142%); -moz-animation-delay: -0.41667s; animation-delay: -0.41667s;}
+.demoproject-overlay-spinner div.bar9 {-webkit-transform:rotate(240deg) translate(0, -142%); -ms-transform:rotate(240deg) translate(0, -142%); -o-transform: rotate(240deg) translate(0, -142%); transform:rotate(240deg) translate(0, -142%); -webkit-animation-delay: -0.333s; -moz-transform:rotate(240deg) translate(0, -142%); -moz-animation-delay: -0.333s; animation-delay: -0.333s;}
+.demoproject-overlay-spinner div.bar10 {-webkit-transform:rotate(270deg) translate(0, -142%); -ms-transform:rotate(270deg) translate(0, -142%); -o-transform: rotate(270deg) translate(0, -142%); transform:rotate(270deg) translate(0, -142%); -webkit-animation-delay: -0.25s; -moz-transform:rotate(270deg) translate(0, -142%); -moz-animation-delay: -0.25s; animation-delay: -0.25s;}
+.demoproject-overlay-spinner div.bar11 {-webkit-transform:rotate(300deg) translate(0, -142%); -ms-transform:rotate(300deg) translate(0, -142%); -o-transform: rotate(300deg) translate(0, -142%); transform:rotate(300deg) translate(0, -142%); -webkit-animation-delay: -0.1667s; -moz-transform:rotate(300deg) translate(0, -142%); -moz-animation-delay: -0.1667s; animation-delay: -0.1667s;}
+.demoproject-overlay-spinner div.bar12 {-webkit-transform:rotate(330deg) translate(0, -142%); -ms-transform:rotate(330deg) translate(0, -142%); -o-transform: rotate(330deg) translate(0, -142%); transform:rotate(330deg) translate(0, -142%); -webkit-animation-delay: -0.0833s; -moz-transform:rotate(330deg) translate(0, -142%); -moz-animation-delay: -0.0833s; animation-delay: -0.0833s;}
+ @-webkit-keyframes fade {from {opacity: 1;}to {opacity: 0.25;}}
+@-moz-keyframes fade {from {opacity: 1;}to {opacity: 0.25;}}
+/*****************************************************Place holder******************************************************/
+::-webkit-input-placeholder { color:#ccc; padding-top:0em}
+::-moz-placeholder { color:#ccc; } /* firefox 19+ */
+:-ms-input-placeholder { color:#ccc; } /* ie */
+input:-moz-placeholder { color:#ccc; }
+/*****************************************************Next and Prev button******************************************************/
+.demoproject-sp1-nextbutton .demoproject-sp1-nextbuttonimg span{width:41px; height:30px;  display:block; position: absolute; }
+.demoproject-nextbuttonimg{background: url("../images/btn_next.png") no-repeat left;  float: right; padding-left:80px; line-height:65px; height:65px; }
+.demoproject-prevbuttonimg{ background: url("../images/btn_prev.png") no-repeat left; float:left; padding-left:80px; line-height:65px; height:65px; margin-bottom:1em}
+.demoproject-ap-searchbar{background: url("../images/btn_search.png") no-repeat left; margin-top:20px; float:left; padding-left:70px;  line-height:70px;  height:70px; }
+.demoproject-ap-Settings{background: url("../images/btn_accsett.png") no-repeat left; float:right; margin-top:20px; padding-left:70px; line-height:70px; height:70px; background-size:70px 70px;}
+.demoproject-refresh{background: url("../images/btn_refresh.png") no-repeat right;  float: left; padding-left:90px;  height:85px; margin-bottom:1em	}
+.demoproject-rl-nextbuttonimg{background: url("../images/btn_next.png") no-repeat left !important;}
+.demoproject-sp-navigationimg{background: url("../images/nav_step.png") no-repeat left;  } 
+select {
+-webkit-appearance: none; border: 0px; box-sizing:none }
+select:focus{border: 0px solid #FBA546;border: 0px;  outline: none;
+    border: none;}
+.demoproject-ruler{background: url("../images/nav_step.png") no-repeat right;  float: left;  height:15px; 	}
+.demoproject-passwordicon{margin-top:-0.8em; background: url("../images/drawer_icon_tv_tips_1.png") no-repeat left;  float: right; padding-left:35px; line-height:0px; height:47px; margin-bottom:0em; background-size:35px 35px; }
+.demoproject-sp3-usernameicon{margin-top:-0.5em; background: url("../images/spinner.png") no-repeat left;  float: left; padding-left:30px; line-height:0px; height:47px; margin-bottom:0em; background-size:25px 25px; }
+.demoproject-locationicon{background: url("../images/location.png") no-repeat left; float: left; padding-left:30px; line-height:0px; height:38px; margin-top:-0.4em; background-size:30px 30px;}
+
+
+.demoproject-logo{margin-top: -2.7em;}
+
+.demoproject-rp-nextbuttonimg{float:none!important; background: url("../images/btn_next.png") no-repeat center!important; padding-left:350px!important}
+/*****************************************************Input text box******************************************************/
+.demoproject-checkbox + label {background-color: #fafafa; border: 1px solid #cacece;	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);padding: 10px; border-radius: 3px;	display: inline-block;	}
+input[type="checkbox"] { display:none; }
+.demoproject-lp-checkbox input[type="checkbox"] + label { color:#f2f2f2; font-family: roboto;  font-size:1em; }
+.demoproject-lp-checkbox input[type="checkbox"] + label  { display:inline-block;  margin-right: 1em;  width:4.12em;  height:4.125em; margin:-17px 4px 0 0px 4px 0 0; vertical-align:middle; padding-top:1em; background:url(../images/check_icon.png) no-repeat;  cursor:pointer;}
+.demoproject-lp-checkbox input[type="checkbox"]:checked + label  {background:url(../images/check_icon_a.png)  no-repeat;}
+.demoproject-checkbox + label {	content: "\2713"; background-color: #fafafa; border: 1px solid #cacece;	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);padding: 10px; border-radius: 3px;	display: inline-block;	}
+.demoproject-textbox,.demoproject-icontextbox,.demoproject-acc-search{height:3.8em;  background: #fff;}
+.demoproject-rechargebox input{margin:0px 0px 0px 1px;height:1.5em;  width:95%; border:0px; box-shadow:0 0px 0px rgba(0, 0, 0, 0) inset; color:#000;font-size: 1.4em;}
+.demoproject-rechargebox2 input{margin:0px 0px 0px 1px;height:1.5em;  width:95%; border:0px; box-shadow:0 0px 0px rgba(0, 0, 0, 0) inset; color:#000;font-size: 1.4em; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));}
+.demoproject-rechargebox3 input{margin:0px 0px 0px 1px;height:1.5em;  width:95%; border:0px; box-shadow:0 0px 0px rgba(0, 0, 0, 0) inset; color:#000;font-size: 1.4em; background-color:#E0E0E0;}
+.demoproject-searchbox{background-image: url("../images/search-16.png"); background-repeat:no-repeat;  padding-left:40px; width:70%}
+.demoproject-cancel{margin: 0.5em 0em 0em 2em; text-decoration: underline;}
+.demoproject-textbox-sp3{width:100%!important}
+.demoproject-textbox input{ margin: 7px 0px 0px 1px; height:1.5em;  width:92%; border:0px; box-shadow:0 0px 0px rgba(0, 0, 0, 0) inset; color:#000; font-size: 1.4em;background-color: white;}
+/*.demoproject-textbox input:focus{box-shadow:0 0px 0px rgba(251, 165, 70, 1) inset, 0 0 0px rgba(251, 165, 70, 1);}*/
+.demoproject-textbox,.demoproject-rechargebox :focus{border: 0px solid #fff;}
+.demoproject-textbox,.demoproject-rechargebox input:focus{border: 0px solid #fff;}
+
+.demoproject-icontextbox input{margin: 5px 0px 0px 5px; height:1.5em;  width:99%; border:0px; box-shadow:0 0px 0px rgba(0, 0, 0, 0.075) inset; color:#000; font-size: 1.4em;}
+.demoproject-icontextbox input:focus{box-shadow:0 0px 0px rgba(251, 165, 70, 1) inset, 0 0 0px rgba(251, 165, 70, 1);}
+.demoproject-icontextbox:focus{border: 0px solid #FBA546;}
+.demoproject-textbox-googlemapicon{background: url("../images/location.png") no-repeat scroll 98% 50% transparent;padding-top: 0.4em; background-size: 40px 36px;}
+/*****************************************************Radio Button******************************************************/
+input[type="radio"] { display:none; }
+.demoproject-radiobutton label, .demoproject-radiobutton input, .demoproject-radiobutton button, .demoproject-radiobutton select, .demoproject-radiobutton textarea {line-height:66px !important;}.demoproject-radiobutton input[type="radio"] + label { color:#f2f2f2; font-family:Arial, sans-serif;  }
+.demoproject-radiobutton input[type="radio"] + label span { display:block;   width:5.12em;  height:5.125em;  vertical-align:middle; background:url(../images/system_radio_btn_off.png) no-repeat;  cursor:pointer;}
+.demoproject-radiobutton input[type="radio"] + label span lable { display:block; float:left;  width:5.12em;  height:5.125em;  vertical-align:middle; background:url(../images/system_radio_btn_off.png) no-repeat;  cursor:pointer;}
+.demoproject-radiobutton input[type="radio"]:checked + label span {background:url(../images/system_radio_btn_on.png)  no-repeat;}
+#radio2{margin-top: -3em;margin-left: 11em;}
+/*****************************************************Search**********************************************************/
+.demoproject-searchBox .demoproject-searchBoxIcon{float: left; width:16px; height:16px; margin:0.7em 0px 0px 0.7em; background: url("../images/search-16.png") no-repeat;}
+.demoproject-searchBox{margin:0.3em 0.3em 0.6em; font-size: 1em; height: 2.75em; background: none repeat scroll 0 0 #FFFFFF;  border: 1px solid #D8D8D8; border-radius: 0.125em;  box-shadow: 0 0 0 0.3em #F4F4F4; display:none;}
+/*****************************************************Log in Page**********************************************************/
+
+.demoproject-lp-logo{background: url("../images/alert_icon.png") no-repeat center;}
+
+.demoproject-lp-Loginimg .demoproject-lp-Loginimgtext span{width:41px; height:30px;  display:block; position: absolute; }
+.demoproject-lp-Loginimg{text-align: left; margin: 0px auto 8%;}	
+.demoproject-lp-logintext{margin-top: 1.5em;}
+.demoproject-lp-forgetpassword {margin-top:5em; height:10em; }
+.demoproject-lable{text-decoration: underline; color: #ff0099; font-weight:bold;}
+
+.demoproject-lp-newuser{margin-top: 1em;}
+.demoproject-lp-checkbox{margin: 5em 0em 4em 0em;}
+.demoproject-lp-Loginimgtext{margin-top:1.3em; background: url("../images/btn_login.png") no-repeat left;  padding-left:145px; line-height:136px; height:136px;}
+.demoproject-lp-Loginimgtext{margin-top:1.7em; padding-left:80px; line-height:70px; height:70px; background-size:70px 70px; }
+.demoproject-lp-margin{margin-top:5.7em}
+/*****************************************************Drop Down Page**********************************************************/
+
+.demoproject-ap-account{padding-top:0.6em}
+.demoproject-refreshtext{margin: 6em 0em 0em 14.8em; position: absolute;}
+
+/*****************************************************Signup Page Step:1**********************************************************/
+.demoproject-sp1-requiredStar{	color:#FF0099;}
+div.demoproject-borderline{background-image: url('../images/top_line.9.png'); background-repeat: no-repeat;  background-origin:border-box;     padding:35px 0px 0px 0px;  background-size: 100% 20%}
+.demoproject-logocolorline{background-size: 100% 15%!important}
+.demoproject-inputfield{margin-bottom:3.5em}
+.mai{width:40%}
+#demoproject-sp1-radio1{margin-left:15em;}
+.demoproject-sp1-inputfield{margin-top: 1.5em;}
+
+/******************************************************Signup Page Step:2**********************************************************/
+.demoproject-sp3-cuname{float:right; }
+.demoproject-sp3-uname{margin-top:0.5em!important}
+.demoproject-sp3-inputfield{width:60%}
+.demoproject-sp3-passwordstrength{margin-top:2em;}
+.demoproject-rp-registration{margin-top:5.5em;  line-height: 2em;}
+.demoproject-rp-registration1{margin-top:2.5em;  border: 1px solid #ccc; padding:1em; }
+.demoproject-sp3-password{margin-bottom:2em!important}
+.demoproject-sp3-captcha{margin-bottom:3.5em}
+/******************************************************Signup Page Step Design**********************************************************/
+.demoproject-sp3-menu{background: #efefef;width: 100% }
+.demoproject-sp3-menu ul{list-style-type: none;  margin:0em!important; padding:0em;}
+.demoproject-sp3-menu ul li a{display: block;padding: 0em;text-decoration: none; background-color: #efefef;}
+.demoproject-sp3-menu ul li{ float:left;width:20%;text-align:center;}
+
+
+.demoproject-tr-menu{background: #efefef;width: 100% }
+.demoproject-tr-menu ul{list-style-type: none;  margin:0em!important; padding:0em;}
+.demoproject-tr-menu ul li a{display: block;padding: 0em;text-decoration: none; background-color: #efefef;}
+.demoproject-tr-menu ul li{ float:left;width:33%;text-align:center;}
+
+.dropdown select {	width: 100%;	color: #333;	font-weight: normal;font-size: 1em;	line-height:1.2em;	margin: 0 0 10px;	padding:0px 0px 0px 25px;	border: 0 none;	cursor: pointer;	text-indent: 0.01px;	text-overflow: "";	background: url("../images/spinner.png") no-repeat left; 	*background-image:none;	-webkit-appearance: none;	-moz-appearance: none;	-ms-appearance: none;	appearance: none;}
+#myModal {   margin:  4em 0em 0em -21em;}
+/******************************************************Image Captcha**********************************************************/
+.popover-title { height: 0px;display:none;}
+#passwordDescription{font-weight: bold;color:#ff0099;}
+#passwordStrength{height:10px;display:block;}						
+.strength1{width:30%; background:#ff0000;}
+.strength2{width:40%; background:#ff5f5f;}
+.strength3{width:45%; background:#56e500;}
+.strength4{background:#4dcd00; width:50%;}
+.strength5{background:#399800; width:60.5%;}
+.strength0{background:#cccccc;}
+.demoproject-sp3-winkeye{ background-image: url("../images/eye.png"); height: 3em;width: 3em}
+.demoproject-sp3-username{float:left;color: #333333; font-size:1.84em;}
+.demoproject-sp3-customerusername{float:right;color: #333333; font-size:1.84em;}
+.demoproject-sp3-customerusername span{background: url("../images/spinner.png") no-repeat left; width:27px; height:25px;  display:block; position: absolute; right:11em;margin-top: -0.2em;}
+.captcha-img { background-repeat: no-repeat; padding-bottom: 1em; background-color: white; width: 10.8125em; height: 2.6875em; padding-top: 2.375em; padding-left: 1.6875em; margin: 1em 0em 1em 0em}
+
+/******************************************************Registration Page**********************************************************/
+.demoproject-rp-nextbuttonmain{margin-left: -150px!important;}
+.demoproject-sp3-inputfield{width:60%!important;}
+.demoproject-otp-margin{margin-top:3em}
+/*********************************************************statement of account**********************************************/
+.demoproject-headtab{background-color:#E0E0E0; padding:1em 1em 1em 1em; }
+.demoproject-headtab2{background-color:#E0E0E0; padding:0.5em 1em 1.5em 1em;}
+.demoproject-headtab3{background-color:#E0E0E0; padding:8em}
+.demoproject-sa-accountbalance{width: 33%;margin-top:0.8em;}
+.demoproject-sa-accountvalidity{width: 33%;margin-top:0.8em;}
+.demoproject-sa-cost{width:33%;text-align: center; margin-top:0.8em;}
+.demoproject-sa-date{width:33%;text-align: center; margin-top:0.8em;}
+.demoproject-sa-recharge{width:33%;text-align: center;}
+/*********************************************************Generate Statement of Account**********************************************/
+.demoproject-headtab4{background-color:#E0E0E0; padding:1em 1em 1em 1em; height:8em}
+.demoproject-gs-thisweek{width: 33%;}
+.demoproject-gs-lastmonth{width: 33%;}
+.demoproject-gs-lastfewmonths{width: 33%;}
+.demoproject-gs-gs{width:100%!important}
+/*********************************************************Topup and recharge**********************************************/
+
+.demoproject-dropdownhead{height : 3.9em;background-color: white;padding-top: 0.5em;}
+.demoproject-tabheading{margin: 0em 0em 0.5em 0em;}
+.demoproject-rupees{float: right;}
+.demoproject-data-details{margin-top: -1.4em; border-bottom: 1px solid #7F7F7F; padding-bottom: 2em;}
+.demoproject-talktime{margin: 0em 0em 0em 3.6em; padding: 0.5em;}
+.demoproject-min{font-weight: bold; color: #000}
+.demoproject-validity{margin: 0em 0em 0em 1em;padding: 0.5em;}
+.demoproject-days{font-weight: bold; color: #000}
+.demoproject-mobilenumberfield{float: left; width: 40%}
+.demoproject-details{float:right; width: 47% }
+#demoproject-tp-bodydiv{overflow: auto}
+.demoproject-tp-selection{display: none;  background-color: black; position: absolute; width: 100%; color: white; height: 102px; padding: 1em 0em 0em 0em;}
+.demoproject-yourselection{color: white; margin: 0em 0em 0em 1em;}
+.demoproject-selected{margin: 0.5em 0em 0em 1em; color: white;}
+.demoproject-cancelbutton{background: url("../images/btn_zcancel.png") no-repeat left;}
+.demoproject-selectbutton{background: url("../images/btn_zsubmit.png") no-repeat left!important;}
+.demoproject-mobiledetails{margin-bottom:7em; margin-top: 2em;}
+.demoproject-dataplans{overflow: auto;}
+
+.demoproject-floatalignleft{float: left; width: 40%; }
+.demoproject-floatalignright{float: right; width: 47%}
+.demoproject-itemdetails{margin-top:1em; border-bottom: 1px solid #E0E0E0;}
+.demoproject-os-itempricedetails{ margin-top:5em; }
+.demoproject-os-itemdetails{float:left; padding: 0em 0em 0.5em 1em;}
+.demoproject-os-pricedetails{float:right; padding-right: 1em;}
+.demoproject-os-paybutton{margin-top: 4em;}
+.demoproject-paybuttonimg{background: url("../images/btn_pay.png") no-repeat left!important}
+
+.demoproject-tp-marginline{border-color:#D8D8D8;border: 0;border-top: 0.1em solid #eeeeee;border-bottom: 1px solid #E0E0E0;}
+
+
+.demoproject-os-header{background-color:#D8D8D8; padding:1em 0em 1em 0em; margin-top: -1em;}
+
+
+.demoproject-highlightimg{display: block}
+.demoproject-highlightimg1{display: none}
+.demoproject-highlightimg2{display: none}
+
+
+/***************************************My Profile ***************************************************************************/
+.demoproject-activeheader {  border-top: 1px solid lightGrey;padding: 0.5em 0em 0.5em 1em }
+.demoproject-mp-myprofile{ background-color: #E0E0E0; padding: 0.5em 0em 0em 0em;}
+.demoproject-mp-userdetails{width:40%; margin: 0em 0em 0em 1em;}
+.demoproject-mp-editbutton{background-image: url('../images/btn_edit.png'); background-repeat: no-repeat;height: 64px;width: 64px;float: left;background-size: 64px 64px; margin-left:1em; padding-right: 2em}
+
+.demoproject-mp-editprofile{line-height:3em}
+.demoproject-mp-menu ul li{ width:50%!important;}
+#demoproject-myp-content{display: none;}
+#demoproject-myp-myplancontent{display: none;}
+#demoproject-myp-mydevicecontent{display: none;}
+.shippinglocation,.findlocation{cursor: pointer;}
+.demoproject-savebuttonimg{background: url("../images/btn_save.png") no-repeat left!important}
+.demoproject-parallelbuttonimg{background: url("../images/btn_cancel.png") no-repeat left!important; margin-left: 2em;}
+
+.demoproject-highlightimg{ background: url("../images/highlight.png") no-repeat center; padding-top: 0.6em; }
+.demoproject-highlightimg1{ background: url("../images/highlight1.png") no-repeat center; padding-top: 0.6em; }
+.demoproject-highlightimg2{ background: url("../images/highlight2.png") no-repeat center; padding-top: 0.6em; }
+
+
+.demoproject-marginline{border-color:#D8D8D8;border: 0;border-top: 1px solid #eeeeee;border-bottom: 1px solid #E0E0E0;}
+.
+.demoproject-myp-greytext{text-align: left;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 100%;font-weight: bold; color: grey;}
+.demoproject-myp-topmargin{margin-top: 1em;}
+.demoproject-myp-bottommargin{margin-bottom: 0.5em;}
+#changepasswordDescription{font-weight: bold;color:#ff0099;}
+#changepasswordStrength{height:10px;display:block;}
+.demoproject-myprofile-maindiv{background-color: #E0E0E0;}
+.demoproject-myprofile-profilediv{width: 47%; float: left; }
+.demoproject-myprofile-profilevaluediv{width: 47%; float: left;}
+.demoproject-myprofile-editbtn{width: 100%; float: left; margin-bottom: 1em;}
+/*.demoproject-myprofile-pinmargin{margin-top: 1em;}*/
+.demoproject-myprofile-locationimg{background-image: url("../images/location.png"); background-repeat: no-repeat;background-position: right;background-size: 25px 25px;}
+.demoproject-myprofile-detailsli{width: 45% !important;}
+.demoproject-myprofile-radiobtnemial{width: 33%;}
+.demoproject-myprofile-selectbox{width: 92%;}
+/*.demoproject-myprofile-drawerimg{background-image: url("../images/drawer_icon_tv_tips_1.png");background-repeat: no-repeat;background-position: right;background-size: 22px 22px;}*/
+.demoproject-myp-drawerbtn{float: left;width: 5%;height: 27px;margin-top: 0.5em;margin-left: 0.1em;background: transparent;border: 0px;background: url("../images/drawer_icon_tv_tips_1.png") no-repeat;background-size: 25px 25px; }
+.demoproject-myprofile-radiobtn{margin-top: -72px;margin-left: 67px;font-weight: bold;}
+.demoproject-myprofile-savebtndiv{text-align: center;}
+.demoproject-myprofile-savebtn{background: transparent;padding: 0.2em;}
+
+.demoproject-myp-paddingleft{padding-left: 1em;}
+.demoproject-myp-marginleft{margin-left: 1em;}
+.demoproject-myp-menu{background: #efefef;width: 100% }
+.demoproject-myp-menu ul{list-style-type: none;  margin:0em!important; padding:0em;}
+.demoproject-myp-menu ul li a{display: block;padding:1.5em;text-decoration: none; background-color: #efefef;}
+.demoproject-myp-menu ul li div{display: block;padding:1.5em;text-decoration: none; background-color: #efefef;}
+.demoproject-myp-menu ul li{ float:left;width:33%;text-align:center;}
+.demoproject-myp-borderline{width: 100%; float:left;margin-top: -1px;}
+.demoproject-myp-borderhighlight{background-image: url("../images/top_line.9.png");background-repeat: no-repeat;background-position: bottom;}
+.demoproject-myp-liwidth{width: 50% !important;}
+.demoproject-myp-width{width: 100%;}
+.demoproject-myp-locationdiv{height:3.8em;  background: #fff; }
+.demoproject-myprofile-radiobtnemail{width: 33%;}
+/*.demoproject-myp-locationdiv input{margin: 5px 0px 0px 1px; height:1.5em !important;  width:90%; border:0px; box-shadow:0 0px 0px rgba(0, 0, 0, 0.075) inset; color:#000; font-size: 1.4em;}*/
+/*.demoproject-myp-locationbtn{float: left;width: 5%;height: 27px;margin-top: 0.5em;margin-left: 0.1em;background: transparent;border: 0px;background: url("../images/location.png") no-repeat;background-size: 25px 25px; }*/
+/***************************************My Profile****************************************************************************/
+
+/**********************************Generate statement of account**/
+.demoproject-gs-margin{margin-top:10em;}/*need to align text where demoproject-margin3 is not suitable properly */
+/*need a  common next button towards left side as this is not available overided demoproject-prevbuttonimg class */
+.demoproject-gs-prevbuttonimg{ background: url("../images/btn_statement.png") no-repeat left; float:left; padding-left:80px; line-height:65px; height:65px; margin-bottom:1em;}
+/*to make use of drop down */
+#selectOption {text-indent: 25px;}
+.demoproject-gs-selectParent{width:80px;}
+.demoproject-gs-selectParent select{width:222px;padding: 2px 30px 2px 2px;border: none;background: transparent url("../images/spinner.png") no-repeat;float:left;}
+/**********************************Generate Statement of account*/
+/******************************************************** contact us ***************************************/
+.demoproject-cu-callbtn{ background:url("../images/call us 28x28.png") no-repeat; width:4em; height:5em;float:left;}
+.demoproject-cu-mailbtn{ background:url("../images/Mail us 28x28.png") no-repeat ;width:4em; height:5em;float:left; }
+.demoproject-cu-addressbtn{background:url("../images/location.png") no-repeat ;height:11em;width:4em;float:left;}
+.demoproject-myp-gradientimg{background: url("../images/reverse_triangle_flyout.png") center 0 no-repeat ,-webkit-linear-gradient(top, grey .01em,#E0E0E0, #E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0 ,grey);padding: 20px;}
+/*********************************************************statement of account starts**********************************************/
+/*need to create block*/
+.demoproject-headtab-SA{background-color:#D8D8D8; padding:2em 2em 3em 2em;margin-bottom:1em;}
+.demoproject-headtab-SA2{background-color:#D8D8D8;margin-bottom:3em; padding:2em 2em 3em 2em;}
+.demoproject-headtab-SA1{background-color:#D8D8D8; padding:10em 2em 10em 2em;}
+.demoproject-sa-button1 input[type="button"]{width:10em;height:2.2em;background-color:lightgrey;font-weight:bold;}
+.demoproject-sa-textalignc{margin-left:9em;}
+/***********************************************************statement of account ends********************************************/
+/**************************************Manage Services ********************************************************************/
+/****Updated on 12/2/2014 by ****/
+.demoproject-ms-width{	width: 100%;}
+.demoproject-pd_text{text-align: left;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 100%;font-weight: bold;}
+
+.demoproject-activeheader { border-bottom: 1px solid lightGrey;padding: 0.5em 0em 0.5em 1em;}
+.demoproject-onactiveheader{ border-top: 1px solid lightGrey;padding: 0.5em 0em 0.5em 1em; }
+.demoproject-serviceA-datacontent{width:32%; float:left;}
+.demoproject-serviceAsuspend-datacontent{width:30%; float:left;}
+.demoproject-activedialogbox{outline: 0px;}
+.demoproject-activediv-autoheight{height: auto !important;}
+.demoproject-ms-greytext{color: gray;margin-top: 0.2em;}
+.service_A_terminationHistorypopupdiv{width: 30em;position: absolute;background-color: white;padding-left: 1em;padding-bottom: 1em;padding-top: 1em;display: none;}
+.service_A_activeHistorypopupdiv{width: 100%;background-color: #ccc;padding: 1em 0em 6em 0em;margin-top: 1em;}
+.service_A_suspendservicespopupdiv{width: 170px;background-color: #ccc;;padding: 1em 0em 6em 0em;margin-top: 1em;}
+#myModal_manageservice.modal{left: 59%;width: 359px; }
+#demoproject-ms-activeservice , #demoproject-ms-suspendservice ,#demoproject-ms-terminationhistory {display: none;}
+.demoproject-ms-leftmargin{width:33%!important; float:left; margin-right:2em}
+/**************************************Manage Services ********************************************************************/
+
+/************************************Suspend Service  *********************************************************************/
+/****Updated on 12/2/2014 by ****/
+.demoproject-ms-confirmimg{ background: url("../images/btn_submit.png") no-repeat left; float:left; padding-left:80px; line-height:65px; height:65px; margin-bottom:1em;}
+.demoproject-ms-confirmtext{ float: left;margin-top: 0.8em ;margin-left: 0.5em;}
+.demoproject-ms-termscondition{color: #F09;text-decoration: underline;}
+.demoproject-ms-startdate-width{width: 50%;float: left;}
+.demoproject-ms-startdateimg{background-image: url('../images/spinner.png');height: 35px;width: 27px; float: left;background-repeat: no-repeat;}
+.demoproject-ms-checkbox{margin: 8em 0em 2em 0em !important;}
+/************************************Suspend Service  *********************************************************************/
+/***************************************My Orders  Uma****************************************************************************/
+
+.demoproject-border1{border-bottom: 1px solid #E0E0E0;padding: 0.5em 0em 0.5em 1em;}
+.demoproject-marginright1{margin-right: 1em;}
+.demoproject-marginleft1{margin-left: 1em;}
+
+.demoproject-margintop{margin-top: 2em;}
+.demoproject-marginbottom{margin-bottom: 2em;}
+.demoproject-textcenter{text-align: center;}
+.demoproject-padding1{padding-left:1em;}
+.demoproject-textred{color: red !important;}
+
+.demoproject-myo-autoheight{height: auto !important;}
+.demoproject-myo-gradientimg{background: url("../images/reversetriangle flyout.png") center 0 no-repeat ,-webkit-linear-gradient(top, grey .01em,#E0E0E0, #E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0,#E0E0E0 ,grey);}
+.demoproject-myo-width1{width:100%; float:left;}
+.demoproject-myo-width5{width:65%;float: left;}
+.demoproject-myo-width7{width:25%;float: left;}
+.demoproject-myo-width8{width:20%;float: left;}
+.demoproject-myo-width9{width: 35%;float: left;}
+.demoproject-myo-width10{width: 15%;float: left;}
+.demoproject-myo-width2{width:50%;float: left;}
+.demoproject-myo-width6{width:30%;float: left;}
+.demoproject-myo-width11{width: 33%;float: left;}
+
+.demoproject-myo-menu{background: #efefef;width: 100% ; float: left;}
+.demoproject-myo-menu ul{list-style-type: none;  margin:0em!important; padding:0em;}
+.demoproject-myo-menu ul li{ float:left;width:50%;text-align:center;}
+.demoproject-myo-menu ul li div{display: block;padding:1.5em;text-decoration: none; background-color: #efefef;}
+.demoproject-myo-menu ul li a{display: inline-block;padding:1.5em;text-decoration: none;outline: 0px;}
+.demoproject-myo-borderhighlight{background-image: url("../images/top_line.9.png");background-repeat: no-repeat;background-position: bottom;font-weight: bold;}
+.demoproject-myorer-approveddiv{width: 20%;text-align: center;border: solid grey 1px;border-bottom-left-radius: 5px;border-top-left-radius: 5px;padding: 0.5em;float: left;}
+.demoproject-myorders-processeddiv{width: 18%;text-align: center;border: solid grey 1px;padding: 0.5em;float: left;}
+.demoproject-myorers-transitdiv{width: 23%;text-align: center;border: solid grey 1px;padding: 0.5em;background-color: green;float: left;}
+.demoproject-myorders-deliverydiv{width: 17%;text-align: center;border: solid grey 1px;padding: 0.5em;border-bottom-right-radius: 5px;border-top-right-radius: 5px;float: left;}
+.demoproject-myorders-locationimg{background-image: url("../images/location.png"); background-repeat: no-repeat;background-position: right;background-size: 25px 25px;float: right;width: 22px;height: 24px;}
+
+.demoproject-myorers-viewimg{background-image: url("../images/eye.png");background-repeat: no-repeat;width: 100%;height: 65px;background-position:center;background-size:35px 34px;}
+.demoproject-myorers-trackimg{background-image: url("../images/btn_track.png");background-repeat: no-repeat;width: 100%;height: 65px;background-position:center;background-size:35px 34px;}
+.demoproject-myorers-aptimg{background-image: url("../images/btn_appointment.png");background-repeat: no-repeat;width: 100%;height: 65px;background-position:center;background-size:35px 34px;}
+.demoproject-myorders-radiobtn{margin-top: -72px;margin-left: 67px;font-weight: bold;}
+.demoproject-myo-tracktext{text-decoration: underline;}
+.demoproject-myorders-greytext{color: grey;}
+.demoproject-myo-background{background-color: #E0E0E0;}
+#oldorder_errormsg , #demoproject-myorders-firstorder , #demoproject-myorders-secondorder , #demoproject-myorders-thirdorder , #demoproject-myorders-forthorder , #demoproject-myorders-fifthorder , #demoproject-myorders-orderid {}
+
+/***************************************My Orders  Uma****************************************************************************/
+/***************************************Radio button have to change****************************************************************************/
+.demoproject-sp3-radiobutton label, .demoproject-sp3-radiobutton input, .demoproject-sp3-radiobutton button, .demoproject-sp3-radiobutton select, .demoproject-sp3-radiobutton textarea {line-height:66px !important;}.demoproject-sp3-radiobutton input[type="radio"] + label { color:#f2f2f2; font-family:Arial, sans-serif;  font-size:1em;}
+.demoproject-sp3-radiobutton input[type="radio"] + label span { display:block;   width:5.12em;  height:5.125em;  vertical-align:middle; background:url(../images/system_radio_btn_off.png) no-repeat;  cursor:pointer;}
+.demoproject-sp3-radiobutton input[type="radio"] + label span lable { display:block; float:left;  width:5.12em;  height:5.125em;  vertical-align:middle; background:url(../images/system_radio_btn_off.png) no-repeat;  cursor:pointer;}
+.demoproject-sp3-radiobutton input[type="radio"]:checked + label span {background:url(../images/system_radio_btn_on.png)  no-repeat;}
+
+/***************************************My Orders  Uma****************************************************************************/
+
+
+
+
+/****************************************manage service popover *************************************************************/
+.demoproject-ms-duration{margin-bottom:0.5em}
+#edit-profile-button{cursor: pointer;}
+.demoproject-serviceA-suspend{background-image: url('../images/btn_suspend.png'); background-repeat: no-repeat;height: 34px;width: 36px;background-size:35px 34px;float: left; margin-left: 3.8em; }
+.demoproject-serviceA-terminate{background-image: url('../images/btn_terminate.png'); background-repeat: no-repeat;height: 34px;width: 36px;background-size:35px 33px;float: left; margin-left: 4.5em; }
+.demoproject-ms-suspendmargin{margin-left: 4.8em;}
+.demoproject-serviceA-relocate{background-image: url('../images/btn_relocate.png'); background-repeat: no-repeat;height: 34px;width: 36px;background-size:35px 33px;float: left; margin-left: 4em; }
+.demoproject-ms-bodytext{margin: 2.4em 0em 0em 1.2em;font-size: 1.54em;}
+.demoproject-ms-margin{margin-bottom:3.5em}
+
+.demoproject-manageservice{background: url("../images/btn_submit.png") no-repeat left!important}
+.demoproject-homeimg{background: url("../images/home.png") no-repeat left!important;margin: 0.5em 0em 0em 0.5em;
+}
+/****************************************manage service popove *************************************************************/
+/****************************************manage service dialog box **********************************************************/
+.demoproject-ms-okbtn{background: transparent;}
+.demoproject-dialog-suspensiontext{color: #F09;}
+.demoproject-dialog-suspensionmrgn{ margin-left: 0.8em;}
+.modal-backdrop{background:transparent !important;}
+.demoproject-dialog-alert{text-align: center;background-color: black;color: white !important;padding: 0.5em;}
+.demoproject-oktext-dialog{text-align: center !important;}
+
+/****************************************manage service dialog box **********************************************************/
+/******************************************** Service Request ********************************************************/
+.demoproject-sr-servicename {width:100%;}
+.demoproject-sr-menu,.demoproject-sr-feedbackdetails ul{display:table;width:100%;}
+.demoproject-sr-menu ul li{ float:left;width:50%;text-align:center;}
+.demoproject-sr-menu ul,.demoproject-sr-request ul,.demoproject-sf-attachements,.demoproject-sr-feedbackdetails ul ,.demoproject-sr-servicedetails ul{list-style-type: none;margin:0;}
+.demoproject-highlight{background-size: 100% 100%;height: 0.1em;padding-top: 0.3em;margin-bottom: -0.1em;}
+.demoproject-sr-request ul li {width:33%;margin-bottom:1em;float:left;display:inline;}
+.demoproject-sr-feedbackdetails ul li {width:50%;float:left;display:inline;margin-bottom:1em;}
+.demoproject-sr-servicedetails ul li {width:100%;float:left;display:inline;margin-bottom:1em;}
+/********************************************************************************************************************/
+
+/*****************************************************Service request feedback************************************************/
+
+.demoproject-feedback-textarea {width:100%;font-size: 1.5em;}
+.demoproject-submitimg {background:url('../images/btn_submit.png');background-repeat: no-repeat;}
+.demoproject-feedbackbuttonimg {background:url('../images/btn_feedback.png');background-repeat: no-repeat;}
+
+/*******************************************************Support***************************************************/
+.demoproject-camerabuttonimg {background:url('../images/btn_camera.png');background-repeat: no-repeat;}
+.demoproject-attachmentbuttonimg {background:url('../images/btn_attach.png');background-repeat: no-repeat;}
+/********************************************************************************************************************/
+/*
+
+/********************************************************Support Feedback***********************************/
+.demoproject-feedback-submit-btn{margin-left:1em;float:left;display:inline}
+
+
+/********************************************************Media Query************************************************************/
+@media (max-width: 480px) {
+/*****************************************************common*****************************************************/
+.demoproject-dropdownlogo{background-size: 93px 54px; height: 53px}
+.demoproject-NewLogoTest {background-size: 93px 54px; height: 53px}
+.demoproject-lp-checkbox{margin: 3em 0em 3em 0em;}
+.demoproject-headline1{color: #333; font-size:3.2em; line-height: 1em;}
+.demoproject-headline{margin: 1.5em 0em 1em 0em;}
+.demoproject-headline2{color: #333; font-size:1.84em;}
+.demoproject-headline3{color: #333; font-size:1.5em; line-height: 1.2em;}
+.demoproject-headline4{color: #333; font-size:1.2em;  font-weight: bold;}
+.demoproject-headline5{color: #fff; font-size:1.2em; padding: 0.5em 0.5em 0.5em 2.5em;}
+.demoproject-titlecase4{margin: 1.3em 0em 1em 0em;}
+.demoproject-subheadline{color: #666; font-size:0.9em; }
+.demoproject-subheadline1{font-size:0.9em; }
+.demoproject-subheadline-bold{color: #333;font-weight:bold; font-size:0.9em; }
+.demoproject-bodytext{font-size:0.9em; line-height:1.4em;}
+.demoproject-dropdown{color: #333; font-size:1.2em}
+.demoproject-logo{margin-top:-1.2em}
+.demoproject-lp-checkbox input[type="checkbox"] + label {background-size:2em !important; border:0px !important; box-shadow:0px !important; padding:0px !important; width:2em!important; height:2em !important;}
+.demoproject-textbox input {margin: 4px 0px 0px 3px; font-size: 1.1em; width: 92%; }
+.demoproject-rechargebox input{padding: 0px 0px 0px 0px; font-size: 1.1em; width: 92%;}
+.demoproject-rechargebox2 input{padding: 0px 0px 0px 0px; font-size: 1.1em; width: 92% }
+.demoproject-rechargebox3 input{padding: 0px 0px 0px 0px; font-size: 1.1em; width: 92% }
+.demoproject-textbox{width:100%; height:3em;}
+.demoproject-headline6{font-size:1.2em!important;}
+.demoproject-icontextbox input {margin: 4px 0px 0px 3px; font-size: 1.1em; width: 92%; }
+.demoproject-icontextbox{width:100%; height:3em;}
+.demoproject-titlecase1{margin: 0.2em 0em 0.5em 0em;}
+.demoproject-errorMsg{font-size:1.2em;}
+.demoproject-dropdown{font-size: 1.1em;}
+.demoproject-radio-align{margin-top: -37px;margin-left: 34px;}
+.demoproject-radio2-align{margin-top: -2.4em;margin-left: 9.9em;}
+.demoproject-radioMobile-align{margin-top: -2.4em;margin-left: 2.4em;}
+.demoproject-radioBoth-align{margin-top: -2.4em;margin-left: 2.4em;}
+.demoproject-dropdownhead{height:3em}
+/*****************************************************Place holder*****************************************************/
+::-webkit-input-placeholder { color:#ccc; padding-top:0em;}
+::-moz-placeholder { color:#ccc; } /* firefox 19+ */
+:-ms-input-placeholder { color:#ccc; } /* ie */
+input:-moz-placeholder { color:#ccc; }
+/*****************************************************Radio Button*****************************************************/
+.demoproject-radiobutton input[type="radio"] + label span {background-size: 2.1em 2.1em; height: 2.5em !important; width: 3em !important; margin: 0px 0px 0 0;}
+.demoproject-radiobutton input[type="radio"]:checked + label span {background-size: 2.1em 2.1em;}
+#radio2{margin-top: 0.8em; font-weight:bold;}	
+.demoproject-radiobutton label, .demoproject-radiobutton input, .demoproject-radiobutton button, .demoproject-radiobutton select, .demoproject-radiobutton textarea {line-height:29px !important;}
+.demoproject-radiobutton input[type="radio"]:checked + label {width:50%}
+#demoproject-sp1-radio1{margin-left: 9em;}
+/*****************************************************Next and Prev Button*****************************************************/
+.demoproject-nextbuttonimg{padding-left:60px; line-height:50px; height:50px; background-size:50px 50px; margin-bottom: 1em;}
+.demoproject-rp-nextbuttonimg{padding-left:60px; line-height:50px; height:50px; background-size:50px 50px; }
+.demoproject-prevbuttonimg{ padding-left:60px; line-height:50px; height:50px; background-size:50px 50px;}
+/*****************************************************Login Page*****************************************************/
+.demoproject-Login{width:15%;  margin:1.5em 1em 0em 0em; }
+.demoproject-lp-Loginimgtext{margin-top:1.7em; padding-left:60px; line-height:50px; height:50px; background-size:50px 50px; }
+.demoproject-ap-searchbar{margin-top:15px; padding-left:60px; line-height:50px; height:50px; background-size:50px 50px;}
+.demoproject-ap-Settings{margin-top:15px; padding-left:60px; line-height:50px; height:50px; background-size:50px 50px;}
+.demoproject-sp3-usernameicon{margin-top:-0.2em; padding-left:25px; line-height:20px; height:20px; background-size:20px 20px;}
+.demoproject-refresh{padding-left:60px;  height:80px; background-size:50px 50px;}
+
+div.demoproject-ap-homemenua ul li{background-size:25px 25px; line-height:29px; height:27px; padding: 8px 35px 7px 40px ;}
+.demoproject-lp-forgetpassword {margin-top:3em;} 
+.demoproject-lp-forgetpasscode{font-size:1em;}
+.demoproject-lp-checkbox{width: 80%;}
+.demoproject-sp3-captcha{margin-bottom:2em;}
+.demoproject-lp-logintext{margin-top: 1em;}
+.demoproject-lp-margin{margin-top:4.7em}
+/*****************************************************Account Page*****************************************************/
+.demoproject-ap-accountname{margin: -0.5em 0em 1em 0em;}
+img.demoproject-ap-img{width:8%; margin-right:1em;}
+.demoproject-menusize{background-size: 25px 30px!important;}
+/******************************************************Signup Page Step:1,2,3**********************************************************/
+div.demoproject-borderline{padding:30px 0px 0px 0px;  background-size: 100% 12%; margin-bottom: -15px;}
+.demoproject-inputfield{margin-bottom: 2em}
+.demoproject-passwordicon{margin-top:-0.6em; padding-left:25px; line-height:25px; height:25px; background-size:20px 20px;}
+.demoproject-sp3-inputfield{width:100%!important;}
+.demoproject-sp3-passwordstrength{margin-top:1em;}
+.demoproject-sp3-password{margin-bottom:1em!important}
+.strength0{width:100%;background:#cccccc;}
+/*#demoproject-radio-male {margin-top: -40px;margin-left: 32px;}*/
+.demoproject-radio-lable{margin-top: -40px;margin-left: 32px;}
+#radio2 {margin-top: -2.4em;margin-left: 9.6em;}
+
+#passwordStrength{height: 6px;}
+.demoproject-rp-registration1{padding:0.75em; }
+.demoproject-rp-nextbuttonimg{padding-left: 200px!important;}
+.demoproject-refreshtext{margin: 5.5em 0em 0em 13.8em;}
+.demoproject-textbox-search{padding-left:14px}
+.demoproject-menubarcontainer{top: -0.2em!important; width:100%!important;}
+
+.demoproject-sp1-inputfield{margin-top: 1em;}
+
+
+/*********************************************************statement of account**********************************************/
+.demoproject-sa-cost,.demoproject-sa-accountbalance{margin-top:0.2em;}
+.demoproject-rechargebox2 input {height:2.5em;}
+.demoproject-headtab4{height:7em}
+.demoproject-data-details{margin-top: -0.4em; padding-bottom: 1.2em;}
+.demoproject-talktime{margin: 0em 0em 0em 2em; padding: 1em;}
+.demoproject-gs-prevbuttonimg{ padding-left:60px; line-height:50px; height:50px; background-size:50px 50px;}
+
+/*********************************************************MyProfile**********************************************/
+.demoproject-mp-editprofile{line-height:2.7em}
+.demoproject-mp-editbutton{background-size: 33px 33px;height: 46px;width: 46px; padding-right: 0.5em;}
+.demoproject-icontextbox input{margin: 5px 0px 0px 4px; }
+.demoproject-textbox-googlemapicon{background-size: 34px 34px;}
+#demoproject-myp-content,#demoproject-myp-myplancontent,#demoproject-myp-mydevicecontent,#demoproject-myp-myusagecontent,#demoproject-myp-mystatementcontent{height: 200px !important}
+#myModal{margin :20em 6em 0em 3em;}
+.modal-header .close {padding: 0px;margin: 0px;}
+
+/*********************************************************Top up recharge**********************************************/
+.demoproject-itemdetails{margin-top:1em; }
+.demoproject-os-paybutton{margin-top:2em;}
+.demoproject-os-itempricedetails{margin-top:3em;}
+/***********************************************************statement of account starts*********************************/
+
+.demoproject-headtab-SA{background-color:#D8D8D8;margin-bottom:0.5em; padding:1.4em 0em 1.4em 0em;padding-left:1em;}
+.demoproject-headtab-SA2{background-color:#D8D8D8;margin-bottom:3em; padding:1.4em 0em 1.4em 0em;padding-left:1em;}
+.demoproject-headtab-SA1{background-color:#D8D8D8; padding:7em 0em 3em 0em;}
+.demoproject-sa-button1 input[type="button"]{width:8em;height:2.5em;margin-right:1em;font-size:0.9em;background-color:lightgrey;font-weight:bold;}
+.demoproject-sa-textalignc{margin-left:8em;}
+/*******************************************************statement of account ends****************************/
+
+
+.demoproject-orderid{width:70%!important}
+.demoproject-track{margin-top:1em;}
+/******************************************************manage service dialogbox*************************************/
+/****Updated on 12/2/2014 by ****/
+.demoproject-ms-margin {margin-bottom: 0em;}
+.demoproject-ms-bodytext{margin: 2.6em 0em 0em 1em;font-size: 1.1em;}
+.service_A_activeHistorypopupdiv{padding-bottom:5.5em}
+.demoproject-ms-popup{top: 2em !important;}
+.demoproject-ms-confirmtext{margin-top: 0.5em; margin-left: 0px;}
+#myModal_manageservice.modal.fade.in{top:25% !important;}
+.service_A_suspendservicespopupdiv{width: 116px;}
+#myModal_manageservice.modal{left: 6em;width: 65%;}
+.service_A_terminationHistorypopupdiv{width: 18em;}
+.demoproject-serviceA-suspend{margin-left: 3em;}
+.demoproject-serviceA-relocate , .demoproject-serviceA-terminate{margin-left: 2.5em;}
+.demoproject-serviceA-terminate
+.demoproject-ms-checkbox{margin-top: 6em !important;}
+.demoproject-ms-leftmargin{width:42%!important; }
+/******************************************************manage service dialogbox*************************************/
+
+/***************************************************** service request **********************************/
+.selcare-submit-icon  {
+width: 2.5em;
+vertical-align: middle;
+}
+
+.demoproject-margin8{margin-top: 2em;}
+.demoproject-feedback-textarea{font-size: 1em;}
+/**********************************************************************************************/
+.demoproject-myorders-textbox{width:45% !important;}
+.demoproject-width12{width:75% !important;float: left;}
+
+/**********************************************************************************************/
+
+.demoproject-tr-tab .demoproject-highlightimg{margin-top: 2em;}
+.demoproject-tr-tab .demoproject-highlightimg1{margin-top: 2em;} 
+}
+
+
+/***************************************************************Media Query************************************************************/
+@media (min-width: 480px) {
+
+.demoproject-sp3-customerusername span{ right:11em;}
+
+
+
+}
+
+
+/***************************************************************Media Query************************************************************/
+@media (min-width:480px) and (max-width: 768px) {
+/*****************************************************common*****************************************************/
+/*.demoproject-lp-checkbox{margin: 3em 0em 3em 0em;}
+.demoproject-headline1{color: #333; font-size:3.2em; line-height: 1em;}
+.demoproject-headline2{color: #333; font-size:1.84em;}
+.demoproject-headline3{color: #333; font-size:1.5em; line-height: 1.2em;}
+.demoproject-headline4{color: #333; font-size:1.2em;  font-weight: bold;}
+.demoproject-headline5{color: #fff; font-size:1.2em; padding: 0.5em 0.5em 0.5em 2.5em;}
+.demoproject-subheadline{color: #666; font-size:1.2em; }
+.demoproject-subheadline-bold{color: #333;font-weight:bold; font-size:1.2em; }
+.demoproject-bodytext{font-size:1em; line-height:1.4em;}*/
+
+/*****************************************************Logo Page*****************************************************/
+.demoproject-rp-nextbuttonimg{padding-left: 330px!important;}
+.demoproject-account{line-height:10em!important;}
+.demoproject-Login{width:12%; } 
+.demoproject-cd-product{width:40%!important; }
+.demoproject-cd-productdescription{width:40%!important; }
+.demoproject-cd-cost{width:20%!important;  }
+.demoproject-pd-plan {width:70%;}
+.demoproject-pd-productcost{width: 25%;}
+.demoproject-searchbox{width:50%}
+.strength0{background:#cccccc;}
+.demoproject-ap-account{margin-bottom:0.5em}
+.demoproject-menubarcontainer{top: -0.2em!important;}
+.demoproject-cd-closebtnimg{margin: 0.5em 1em 0em 7em;}
+.demoproject-total{font-size:2em;}
+.demoproject-icontextbox input{margin: 5px 0px 0px 4px; }
+/************************************************************* service request ***************************/
+.selcare-submit-icon  {
+width: 3.2em;
+vertical-align: middle;
+}
+.demoproject-tr-tab .demoproject-highlightimg{margin-top: 3em;}
+.demoproject-tr-tab .demoproject-highlightimg1{margin-top: 3em;} 
+}
+
+
+/***************************************************************Media Query************************************************************/
+/*@media (min-width:769px) and (max-width: 1024px) {
+.demoproject-lp-checkbox{margin: 3em 0em 3em 0em;}
+.demoproject-headline1{color: #333; font-size:3.2em; line-height: 1em;}
+.demoproject-headline2{color: #333; font-size:1.84em;}
+.demoproject-headline3{color: #333; font-size:1.5em; line-height: 1.2em;}
+.demoproject-headline4{color: #333; font-size:1.5em;  font-weight: bold;}
+.demoproject-headline5{color: #fff; font-size:1.2em; padding: 0.5em 0.5em 0.5em 2.5em;}
+.demoproject-subheadline{color: #666; font-size:1.2em; }
+.demoproject-subheadline-bold{color: #333;font-weight:bold; font-size:1.2em; }
+.demoproject-bodytext{font-size:1em; line-height:1.4em;}
+
+}
+/***************************************************************End************************************************************/
+

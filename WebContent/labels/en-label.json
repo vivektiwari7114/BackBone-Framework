@@ -1,0 +1,134 @@
+{
+    "labels": {
+    	"demoproject.login.usernameLabel" : "EMAIL / PHONE / USERNAME",
+    	"demoproject.login.passwordLabel" : "PASSWORD",
+    	"demoproject.login.rememberMeLabel" : "REMEMBER ME",
+    	"demoproject.login.loginLabel" : "LOGIN",
+    	"demoproject.login.forgotPasswordText" : "forgot password ? >>",
+    	"demoproject.login.newUserText" : "new user? sign up >>",  
+    	
+    	 
+    	"demoproject.forgotpassword.forgotPasswordHeading" : "Forgot Password", 	
+    	"demoproject.forgotpassword.otpLabel" : "OTP",
+    	"demoproject.forgotpassword.newPasswordLabel" : "NEW PASSWORD",
+    	"demoproject.forgotpassword.confirmPasswordLabel" : "CONFIRM PASSWORD",
+    	"demoproject.forgotpassword.resendOtpLink" : "Resend OTP",
+    	"demoproject.forgotpassword.resetPasswordLink" : "RESET PASSWORD",
+    	
+    	"demoproject.signup.signupHeading" : "Sign up",
+    	"demoproject.signup.step1Link" : "STEP 1",
+    	"demoproject.signup.step2Link" : "STEP 2",
+    	"demoproject.signup.step3Link" : "STEP 3",
+    	"demoproject.signup.nextLink" : "NEXT",
+    	"demoproject.signup.previousLink" : "PREV",
+    	"demoproject.signup.estrickSymbol" : "*",
+    	
+    	"demoproject.signup.mobileNoLabel" : "MOBILE NUMBER",
+    	"demoproject.signup.customerIdLabel" : "GSK",
+    	"demoproject.signup.aadhaarNoLabel" : "AADHAAR NUMBER",
+    	"demoproject.signup.nameLabel" : "NAME",
+    	"demoproject.signup.emailIdLabel" : "EMAIL ID",
+    	"demoproject.signup.genderLabel" : "GENDER",
+    	"demoproject.signup.genderMaleRadio" : "MALE",
+    	"demoproject.signup.genderFemaleRadio" : "FEMALE",
+    	"demoproject.signup.dobLabel" : "DATE OF BIRTH",
+    	
+    	"demoproject.signup.addressLabel" : "ADDRESS",
+    	"demoproject.signup.pincodeLabel" : "PIN CODE",
+    	"demoproject.signup.countryLabel" : "COUNTRY",
+    	"demoproject.signup.cityLabel" : "CITY",
+    	
+    	"demoproject.signup.usernameLabel" : "USERNAME",
+    	"demoproject.signup.usernamePickerLabel" : "CUSTOM UserName",
+    	"demoproject.signup.passwordLabel" : "PASSWORD",
+    	"demoproject.signup.rePasswordLabel" : "RE-ENTER PASSWORD",
+    	"demoproject.signup.captchaLabel" : "ENTER CAPTCHA",
+    	
+    	"demoproject.signup.regSuccessMsg" : "Your registration is almost complete. We have sent an OTP to your registered mobile number. Please enter it in the field below to activate your self care account",
+    	"demoproject.signup.otpLabel" : "Enter OTP",
+    	"demoproject.signup.resendOtpLink" : "Resend OTP",
+    	
+    	"demoproject.dropdown.loginLabel" : "Login",
+    	"demoproject.dropdown.logoutLabel" : "Logout",
+    	
+    	
+    	"demoproject.soa.generateStatementOfAccountLabel" : "Generate Statement Of Account",
+    	"demoproject.soa.selectTimePeriodLabel" : "Select time period for statment of account",
+    	"demoproject.soa.generateStatementLabel" : "GENERATE STATEMENT",
+    	"demoproject.soa.olderStatementsLabel" : "For statements older than six months, please raise a service request",
+    	"demoproject.soa.raiseRequestLabel" : "RAISE REQUEST",
+    	
+    	
+    	"demoproject.myprofile.myAccountLabel" : "My Account",
+    	"demoproject.myprofile.myProfileLabel" : "My profile",
+    	"demoproject.myprofile.nameLabel" : "NAME",
+    	"demoproject.myprofile.emailLabel" : "EMAIL",
+    	"demoproject.myprofile.phoneNoLabel" : "PHONE NUMBER",
+    	"demoproject.myprofile.dobLabel" : "DATE OF BIRTH",
+    	"demoproject.myprofile.postalAddressLabel" : "POSTAL ADDRESS",
+    	"demoproject.myprofile.editProfileLabel" : "EDIT PROFILE",
+    	"demoproject.myprofile.soaLabel" : "Statement of Account",
+    	
+    	
+    	"demoproject.editpersonaldetails.myProfileLabel" : "My Profile",
+    	"demoproject.editpersonaldetails.personalDetailsLabel" : "Personal Details",
+    	"demoproject.editpersonaldetails.additionalDetailsLabel" : "Additional Details",
+    	"demoproject.editpersonaldetails.saveLabel" : "SAVE",
+    	"demoproject.editpersonaldetails.cancelLabel" : "CANCEL",
+    	"demoproject.editpersonaldetails.pwdLabel" : "Change password",
+    	"demoproject.editpersonaldetails.nameLabel" : "Name",
+    	"demoproject.editpersonaldetails.emailLabel" : "Email Id",
+    	"demoproject.editpersonaldetails.mobileNoLabel" : "Mobile Number",
+    	"demoproject.editpersonaldetails.altPhNoLabel" : "Add alternate phone number",
+    	"demoproject.editpersonaldetails.birthDateLabel" : "Birth Date",
+    	"demoproject.editpersonaldetails.billingAddressLabel" : "Billing Address",
+    	"demoproject.editpersonaldetails.shippingAddressLabel" : "Shipping Address",
+    	"demoproject.editadditionaldetails.commLabel" : "Preferred mode of communication",
+    	"demoproject.editadditionaldetails.emailAddLabel" : "Email",
+    	"demoproject.editadditionaldetails.mblAddLabel" : "Mobile",
+    	"demoproject.editadditionaldetails.bothLabel" : "Both",
+    	"demoproject.editadditionaldetails.langLabel" : "Preferred language",
+    	"demoproject.editadditionaldetails.annvLabel" : "Anniversary date",
+    	
+    	"demoproject.myprofilechangepwd.myChPwdProfileLabel" : "My Profile",
+    	"demoproject.myprofilechangepwd.changePasswordLabel" : "Change Password",
+    	"demoproject.myprofilechangepwd.changeYourPwdLabel" : "Change your password",
+    	"demoproject.myprofilechangepwd.oldPwdLabel" : "Old password",
+    	"demoproject.myprofilechangepwd.newPwdLabel" : "New password",
+    	"demoproject.myprofilechangepwd.pwdNotEnteredLabel" : "Password not entered",
+    	"demoproject.myprofilechangepwd.confirmPwdLabel" : "Confirm password",
+    	"demoproject.myprofilechangepwd.savePwdLabel" : "SAVE",
+    	"demoproject.myprofilechangepwd.cancelPwdLabel" : "CANCEL",
+    	
+    	
+    	
+    	"demoproject.tp.topAndRechargeLabel" : "TopUp And Recharge",
+    	"demoproject.tp.servicelabel" : "SERVICES",
+    	"demoproject.tp.mobileLabel" : "MOBILE NO",
+    	"demoproject.tp.circleLabel" : "CIRCLES",
+    	"demoproject.tp.emailLabel" : "EMAIL",
+    	"demoproject.tp.amountLabel" : "ENTER AMOUNT",
+    	"demoproject.tp.topLabel" : "TOP UP",
+    	"demoproject.tp.rechargeLabel" : "RECHARGE",
+    	"demoproject.tp.checkTariffLabel" : "Check Tariff",
+    	"demoproject.tp.nextLabel" : " NEXT",
+    	
+    	"demoproject.os.priceLabel" : "Price",
+    	"demoproject.os.mobileLabel" : "Mobile Number",
+    	"demoproject.os.typeLabel" : "Type",
+    	"demoproject.os.planLabel" : "Plan",
+    	"demoproject.os.validityLabel" : "Validity",
+    	"demoproject.os.itemLabel" : "Item",
+    	"demoproject.os.rechargeLabel" : "Recharge Fee",
+    	"demoproject.os.processingLabel" : "Processing Fee",
+    	"demoproject.os.serviceTaxLabel" : "Service Tax",
+    	"demoproject.os.totalLabel" : "Total",
+    	"demoproject.os.payNowLabel" : "PAY NOW",
+    	"demoproject.os.orderLabel" : " Order Summary",
+    	
+    	"demoproject.ct.dataPlanLabel" : "DATA PLANS",
+    	"demoproject.ct.topUpLabel" : "TOP UP",
+    	"demoproject.ct.specialPlan" : "SPECIAL RECHARGE"
+    	
+    }
+}

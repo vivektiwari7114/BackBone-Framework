@@ -1,0 +1,38 @@
+{
+    "messages": {
+    	"demoproject.common.GenericError" : "Unexpected error occurred. Please contact the support team",
+    	"demoproject.common.noInternetConnection" : "internet connectivity is not available. please check and relaunch the app",
+    	"demoproject.common.noUsername" : "Please enter Username",
+    	"demoproject.common.noPassword" : "Please enter Password",
+		"demoproject.login.invalidUsername" : "Please enter valid Username",
+		"demoproject.login.invalidPassword" : "Please enter valid Password",
+		"demoproject.resetpassword.noUsername" : "Please enter Username to reset your password",
+		"demoproject.resetpassword.confirmPassword" : "Please enter same Password",
+		"demoproject.resetpassword.noOTP" : "Please enter OTP",
+		"demoproject.login.loginFailed" : "Login failed",
+		"demoproject.signup.invalidMobno" : "Please enter valid mobile number",
+		"demoproject.signup.noEmail" : "Please enter email",
+		"demoproject.signup.invalidEmail" : "Please enter valid email",
+		"demoproject.signup.invalidAadhaar" : "Please enter valid Aadhaar number",
+		"demoproject.signup.noMobno" : "Please enter mobile number",
+    	"demoproject.signup.noCustomerId" : "Please enter customer id",
+    	"demoproject.signup.noDateOfBirth" : "Please enter date of birth",
+    	"demoproject.signup.clear" : "",
+    	"demoproject.signup.noAddress" : "Please Enter address!!",
+    	"demoproject.signup.invalidPin" : "Invalid Pin, Pin should be a 6 digit number",
+    	"demoproject.signup.noPin" : "Please Enter pin!!",
+    	"demoproject.signup.pswdNotMatching" : "Password doesn't Match!!",
+    	"demoproject.signup.noCaptcha" : "Please Enter Captcha!!",
+    	"demoproject.signup.captchaNotMatching" : "Captcha doesn't Match!!",
+		"demoproject.topup.noAmount" : "Please Enter Amount", 
+        "demoproject.topup.invalidAmount" : "Please Enter  Valid Amount",
+        "demoproject.topup.noService" : "Please Select Service from Dropdown " ,  
+        "demoproject.topup.noCircle" :  "Please Select Circle from Dropdown ", 
+        "demoproject.signup.noPin" :  "Please Enter Pin  ",
+         "demoproject.signup.invalidPin" :  "Please Enter Valid Pin  ",
+         "demoproject.manageservices.agreement" :  "Please read and agree to the terms and conditions",
+          "demoproject.myorder.noOrderId" :  "Please Enter Order Id  ",
+          "demoproject.myorder.invalidOrderId" :  "Please Enter Valid Order Id  "
+		
+    }
+}

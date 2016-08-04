@@ -1,0 +1,42 @@
+{
+    "mappings": {
+        "defaults": {
+           "contentType": "application/json",
+            "isSecured": false,
+            "method": "GET",
+            "cachable": false,
+            "defaultParams": {
+               
+            },
+            "defaultPlaceHolders": {
+               
+            }
+        },
+        
+       "Authenticate" : {        
+        	"template": "v3/dip/user/unpw/verify",
+        	"module" : "login",
+        	"server" : "Demo",
+        	"method": "POST",
+        	"isSecured": true,
+        	"dataType" : "json",
+        	"contentType": "application/json"
+        	
+        },
+        
+        "servicedetails" : {
+            "template": "dip/auth/login",
+            "module" : "servicerequest",
+            "server" : "Demo",
+            "method": "POST",
+            "isSecured": true,
+            "dataType" : "json",
+            "contentType": "application/json"  
+            
+        }
+        
+        
+        
+        
+    }
+}

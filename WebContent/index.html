@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>RJIL-demoproject</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel = "stylesheet" type = "text/css" href = "css/jquery.calendars.picker.css">
+	<script src="js/libs/require.js" data-main="js/require-config"></script>
+	
+<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>  -->
+</head>
+<body>
+
+<div  class="demoproject-menubarcontainer">
+<div id="demoproject-menubar" class="container-fluid" id="demoproject-menubarcontainer" >
+	<div class="searchandmenu">
+		<div class="row-fluid">
+			<div class="demoproject-ap-logo">
+				<div class="demoproject-ap-searchmenu">
+					<div class="demoproject-headline4 demoproject-ap-searchbar"></div>
+				</div>
+				<div class="demoproject-ap-Settingsmenu">
+					<div class="demoproject-headline4 demoproject-ap-Settings"></div>
+				</div>
+				<div class="demoproject-ap-account demoproject-headline3 demoproject-textalignc">Account</div>
+				<div class="demoproject-ap-accountname demoproject-subheadline" id="demoproject-accountholdernames"></div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<div id="demoproject-ap-menubar" >
+		<div class="demoproject-ap-homemenua demoproject-headline4">
+			<ul>
+				<li class="demoproject-menubar-jioproducts"><a href="#jioproducts">Jio Products</a></li>
+				<li class="demoproject-menubar-bestplans"><a href="#bestplans">Best Plans</a></li>
+			<li class="demoproject-menubar-myorders"><a href="#myorder/MyOrderView">My Orders</a></li> 
+				<li class="demoproject-menubar-myorders"><a  id = "" href="#myprofile/myprofilepage">My Profile</a></li>
+				<li class="demoproject-menubar-recharge"><a href="#topUpRecharge/topUp_RechargePage_17" >Recharge</a></li>
+				<li class="demoproject-menubar-mycart"><a href="#mycart">My Cart</a></li>
+				<li class="demoproject-menubar-mynotification"><a href="#mynotification">My Notification</a></li>
+				<!-- <li class="demoproject-menubar-myorder"><a href="#myorder">My Orders</a></li> -->
+				<li class="demoproject-menubar-manageservices"><a href="#manageservices/manageServicesView">Manage Services</a></li>
+				<li class="demoproject-menubar-servicerequest"><a href="#servicerequest/serviceRequestView">Service Request</a></li>
+				<li class="demoproject-menubar-relocation"><a href="#relocate/relocatepage">Relocation</a></li>
+				<li class="demoproject-menubar-support"><a href="#contactus/contactview">Support</a></li>
+				<li class="demoproject-menubar-logout"><a  href="#" id = "logStatus"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="demoproject-inputfield demoproject-acc-search">
+		<div class="demoproject-textbox">
+			<input type="search" id="search" name="username" class="demoproject-textbox-search"  placeholder="search"/>
+		</div>
+	</div>
+</div>
+<div class="demoproject-mainLogo1">
+	<div class="demoproject-dropdownlogo" id="bottomlogo"></div>
+</div>
+</div>
+<div id="menubar"></div>
+<!-- <div class="demoproject-borderline demoproject-logocolorline"></div>
+<div class="demoproject-mainLogow">
+	<div class="demoproject-dropdownlogo demoproject-logo" id="mainlogo"></div>
+</div>-->
+
+<div class="demoproject-NewLogo">
+
+	<div class="demoproject-NewLogoTest" id="mainlogo"></div>
+</div>
+<div class="demoproject-overlay">
+	<div class="demoproject-overlay-spinner">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+		<div class="bar4"></div>
+		<div class="bar5"></div>
+		<div class="bar6"></div>
+		<div class="bar7"></div>
+		<div class="bar8"></div>
+		<div class="bar9"></div>
+		<div class="bar10"></div>
+		<div class="bar11"></div>
+		<div class="bar12"></div>
+	</div>
+</div>
+<script>
+	
+		//Load the app module and pass it to our definition function
+		require(
+			["app"], 
+			function(App) {
+				
+				// The "app" dependency is passed in as "App"
+				// Again, the other dependencies passed in are 
+				// not "AMD" therefore don't pass a parameter 
+				// to this function
+				App.initialize();
+			}	
+		);
+	</script>
+</body>
+</html>

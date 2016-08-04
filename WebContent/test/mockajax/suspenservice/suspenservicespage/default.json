@@ -1,0 +1,59 @@
+{
+    "referenceNumber": "?",
+    "customerReferenceId": "?",
+    "type": "MODIFY",
+    "channel": "?",
+    "posAgentCode": "?",
+    "details": [
+        {
+            "accountId": "12345678912",
+            "features": [
+                {
+                    "action": "SUSPEND",
+                    "productId": "123",
+                    "serviceId": "123",
+                    "contractNumber": "765",
+                    "inventory": [
+                        {
+                            "inventoryType": "IMSI",
+                            "inventoryValue": "9287"
+                                                                          
+                        }
+                    ],
+                     "characteristics": [
+                                {
+                                    "name": "cug code",
+                                    "value": "cug code to be deleted"
+                                    
+                                }
+                            ]
+                }
+            ]
+        },
+        {
+            "accountId": "12345678912",
+            "features": [
+                {
+                    "action": "update DND",
+                    "productId": "123",
+                    "serviceId": "123",
+                    "contractNumber": "765",
+                    "inventory": [
+                        {
+                            "inventoryType": "IMSI",
+                            "inventoryValue": "9287"                                                                          
+                        }
+                    ],
+                     "characteristics": [
+                                {
+                                    "name": "cug code",
+                                    "value": "cug code to be deleted"
+                                    
+                                }
+                            ]
+                }
+            ]
+        }
+    ]
+}
+  

@@ -1,0 +1,24 @@
+{
+    "fieldtypes": {
+        "email": {
+            "type": "email",
+            "regexp": "",
+            "format": "",
+            "minLength":"",
+            "maxLength":"",
+            "permittedChars":"",
+            "restrictedChars":"",
+            "validators": [
+                "emailValidator"
+            ]
+        },
+        "currency": {
+            "type": "number",
+            "regexp": "",
+            "format": "",
+            "validators": [
+                "currencyValidator"
+            ]
+        }
+    }
+}

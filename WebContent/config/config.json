@@ -1,0 +1,54 @@
+ {
+	"configuration" : {
+	
+		"comments" : {
+			"applicationIdentifier" : "The identifier of the app",
+			"applicationName" : "",
+			"version" : "0.1",		
+			"defaultLocale" : "The default locale of the app",
+			"mockAjaxEnabled" : "set this to true if mock ajax URL are to be enabled",
+			"templateCachingEnabled" : "Set this to true to enable caching of handlebar templates",
+			"mockAjaxPrefix" : "test/mockajax/",
+			"serverUrl" : "The url of the server",
+			"serviceMappingFile" : "Location to the service mapping file",
+			"fieldMappingFile" : "Location to the field mapping file",
+			"messagesFile" : "Location to the messages file",
+			"templateFragments" : "The list of handlebar template fragments to be registered",
+			"timeoutIntervel" : 180
+		},
+		
+		"applicationIdentifier" : "",
+		"applicationName" : "",
+		"version" : "0.1",		
+		"defaultLocale" : "en",
+		"debugEnabled" : "",
+		"mockAjaxEnabled" : true,
+		"templateCachingEnabled" : false,
+		"mockAjaxPrefix" : "test/mockajax/",
+		"mapsApiKey" : "",		
+		"serverMappingFile" : "config/server-mappings.json",
+		"serviceMappingFile" : "config/service-mappings.json",
+		"fieldMappingFile" : "config/field-mappings.json",
+		"userMappingFile" : "config/user-mappings.json",
+		"messagesFile" : "messages/messages.json",
+		"labelsFile" : "labels/en-label.json",
+		"templateFragments" : [
+								{
+									"id" : "fr-product-list-cell",
+									"context" : "templates/catalog"
+								},
+								{
+									"id" : "fr-product-variant-popover",
+									"context" : "templates/catalog"
+								},
+								{
+									"id" : "fr-stores-listcell",
+									"context" : "templates/stores"
+								},
+								{
+									"id" : "fr-settings-menucell",
+									"context" : "templates/common"
+								}
+							]		
+	}
+}
