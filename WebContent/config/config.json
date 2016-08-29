@@ -22,7 +22,7 @@
 		"version" : "0.1",		
 		"defaultLocale" : "en",
 		"debugEnabled" : "",
-		"mockAjaxEnabled" : true,
+		"mockAjaxEnabled" : false,
 		"templateCachingEnabled" : false,
 		"mockAjaxPrefix" : "test/mockajax/",
 		"mapsApiKey" : "",		
